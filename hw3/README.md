@@ -1,24 +1,19 @@
-## HW3 Instructions
+## HW3: Neural Networks and Gradient Descent <br>
 
-https://www.cs.tufts.edu/cs/135/2023f/hw3.html
+**Coding Tasks:** <br>
+* Implement Forward Propagation in Neural Networks:
+* Implement predict_0_hidden_layer function in neural_networks.py to perform forward propagation for an MLP without any hidden layers.
+* Implement predict_n_hidden_layer function in neural_networks.py to perform forward propagation for an MLP with one or more hidden layers.
 
-## Contents of this starter code repo
-
-### Files for Problems 1-3 (fitting MLPs to flower data)
-
-* hw3_notebook.ipynb
-* viz_tools_for_binary_classifier.py [DO NOT EDIT]
-
-### Files for Problem 4 (implementing predict for MLP)
-
-* neural_networks.py
-
-> > Implement functions here to show you understand how forward propagation works for prediction
-
-* doctest_neural_nets.py [DO NOT EDIT]
-
-> > Helpful test cases for your implementation
-
-* activations.py [DO NOT EDIT]
-
-> > Code for common activation functions that you'll need
+**Report Tasks:** <br>
+* Implement and evaluate MLPs using the 'lbfgs' solver option for sklearn's MLPClassifier.
+* Experiment with different hidden layer sizes (4, 16, 64, and 256) and record performance metrics (log loss, error rate) on training and test sets.
+* Create Figure 1 to visualize the performance of each model as a function of the size.
+* Analyze convexity of the training objective, recommend learning rates for each batch size, and report times to achieve a good training loss value.
+* Make your own figure comparing batch size and step size:
+* Run SGD with different batch sizes and learning rates.
+* Create Figure 3 showing SGD training loss vs. elapsed wallclock time.
+* Provide a caption comparing your figure to Figure 2 and discussing any significant changes.
+* Implement Forward Propagation in Neural Networks:
+* Implement the predict method of a neural network, which involves forward propagation.
+* Ensure the implementation correctly computes predictions for an MLP with specified architecture.
