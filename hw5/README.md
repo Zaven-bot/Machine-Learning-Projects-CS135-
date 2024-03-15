@@ -1,4 +1,4 @@
-## HW4: Kernels, SVMs, PCA, and Recommender Systems <br>
+## HW5: Kernels, SVMs, PCA, and Recommender Systems <br>
 
 **Coding Tasks:** <br>
 > * Implement calc_linear_kernel.
