@@ -1,25 +1,23 @@
-Implementation TODO list for students for this HW
+## HW4: Trees and Random Forests
 
-## Problem 0: Coding tasks
+**Coding Tasks:**
+> * Implement predict for a LeafNode
+> * Implement predict for an InternalDecisionNode
+> * Implement select_best_binary_split
+> * Implement train_tree
 
-* [  ] Write your `predict` method for LeafNode in tree_utils.py
-* [  ] Write your `predict` method for InternalDecisionNode in tree_utils.py
-* [  ] Complete the `train_tree_greedy` method in train_tree.py
-* [  ] Complete the `select_best_binary_split` method in select_best_binary_split.py
+**Report Tasks:**
+> Problem 1: Decision Trees for Review Classification
+>> * Show the ASCII-text representation of trained decision tree from 1A.
+>> * Perform a grid search for the hyperparameters of your DecisionTree.
+>> * Answer questions about the best tree's hyperparameters.
 
-## Problem 1-2: Analysis tasks
+> Problem 2: Random Forests for Review Classification
+>> * Train a simple random forest.
+>> * Access the feature importances of your trained forest and create a table.
+>> * Perform a grid search for hyperparameters of the random forest.
+>> * Answer questions about the best forest's hyperparameters.
+>> * Answer questions about adjusting n_estimators.
+>> * Summarize the overall performance of all models developed.
+>> * Answer a question about the runtime complexity of making predictions for a decision tree.
 
-* [ ] Do all tasks in the notebook `hw4_notebook.ipynb` 
-* [ ] Prepare report as in website instructions page for HW4
-
-## Problem 3: Concept questions
-
-* [ ] Provide short answers to 3a and 3b to the report
-
-## Files that you do NOT need to touch
-
-* `DecisionTreeRegressor.py`
-* * Shows how to take all the functionality you'll implement and create an sklearn-like regressor with `fit` and `predict` methods.
-
-* `pretty_print_sklearn_tree.py`
-* * Define helper function for pretty printing binary decision trees.
